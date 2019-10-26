@@ -1,0 +1,56 @@
+{
+  "type": "GenericSmelter",
+  "name": "Steel Forge",
+  "description": "Combines [black]carbon []and [grey]iron plates []to produce [grey]steel[].",
+
+  "outputItem": {
+    "item": "steel_plate",
+    "amount": 1
+  },
+  "size": 3,
+  "hasPower": true,
+  "hasLiquids": false,
+  "hasItems": true,
+  "craftTime": 60,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+    "power": 0.7,
+    "items": {
+      "items": [
+        {
+          "item": "coal",
+          "amount": 2
+            
+        },
+        {
+          "item":  "iron_plate",
+          "amount": 1
+        }
+      ]
+    }
+
+
+  },
+  "requirements": [
+    {
+      "item": "lead",
+      "amount": 50
+    },
+    {
+      "item": "thorium",
+      "amount": 80
+    },
+    {
+      "item": "silicon",
+      "amount": 60
+    },
+    {
+      "item": "iron_plate",
+      "amount": 50
+    }
+  ],
+  "category": "crafting",
+  "research": "iron_forge",
+  "idleSound": "respawning",
+  "idleSoundVolume": 0.5
+}

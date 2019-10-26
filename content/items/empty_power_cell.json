@@ -1,0 +1,7 @@
+{
+  "type": "material",
+  "name": "Empty Power Cell",
+  "description": "Advanced power storage, made from lithium and lead, not yet charged. [red]NOT YET IMPLEMENTED",
+
+  "color": "604f00"
+}

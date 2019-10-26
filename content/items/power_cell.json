@@ -1,0 +1,7 @@
+{
+  "type": "resource",
+  "name": "Power Cell",
+  "description": "Advanced power storage, made from lithium and lead, fully charged. [red]NOT YET IMPLEMENTED",
+
+  "color": "fef74e"
+}

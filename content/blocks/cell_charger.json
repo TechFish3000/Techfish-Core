@@ -1,0 +1,51 @@
+{
+  "type": "GenericSmelter",
+  "name": "Battery Cell Charger",
+  "description": "Charges [green]Battery Cells[]. [red]NOT FULLY IMPLEMENTED",
+
+  "outputItem": {
+    "item": "power_cell",
+    "amount": 1
+  },
+  "size": 2,
+  "hasPower": true,
+  "hasLiquids": false,
+  "hasItems": true,
+  "craftTime": 360,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+    "power": 1.0,
+    "items": {
+      "items": [
+
+        {
+          "item": "empty_power_cell",
+          "amount": 1
+        }
+      ]
+    }
+    },
+  "requirements": [
+    {
+      "item": "lead",
+      "amount": 50
+    },
+    {
+      "item": "titanium",
+      "amount": 80
+    },
+    {
+      "item": "silicon",
+      "amount": 60
+    },
+    {
+      "item": "iron_plate",
+      "amount":  20
+    }
+
+  ],
+  "category": "crafting",
+  "research": "iron_forge",
+  "idleSound": "respawning",
+  "idleSoundVolume": 0.5
+}

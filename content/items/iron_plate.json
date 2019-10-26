@@ -1,0 +1,7 @@
+{
+  "type": "material",
+  "name": "Iron Plate",
+  "description": "A basic material, refined from Iron Ore.",
+
+  "color": "959595"
+}
