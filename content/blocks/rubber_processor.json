@@ -51,7 +51,7 @@
     }
   ],
   "category": "crafting",
-  "research": "coalCentrifuge",
+  "research": "coal-centrifuge",
   "idleSound": "respawning",
   "idleSoundVolume": 0.5
 }
