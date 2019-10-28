@@ -16,7 +16,7 @@
   "updateEffect": "smeltsmoke",
   "powerProduction": 1,
   "consumes": {
-    
+    "power":  0,
     "items": {
       "items": [
         
