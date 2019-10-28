@@ -49,7 +49,7 @@
 
   ],
   "category": "crafting",
-  "research": "solarPanel",
+  "research": "solar-panel",
   "idleSound": "respawning",
   "idleSoundVolume": 0.5
 }
