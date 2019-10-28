@@ -1,0 +1,7 @@
+{
+  "type": "material",
+  "name": "Rubber",
+  "description": "A basic material, refined from coal and oil.",
+
+  "color": "959595"
+}
