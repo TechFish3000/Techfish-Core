@@ -1,0 +1,7 @@
+{
+  "type": "material",
+  "name": "Laser Lens",
+  "description": "Lens for concentrating a [red]laser[].",
+
+  "color": "bf1400"
+}

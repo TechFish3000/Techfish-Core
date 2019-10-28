@@ -54,11 +54,11 @@
       "amount": 60
     },
     {
-      "item": "satlasdiode",
+      "item": "lasdiode",
       "amount": 3
     },
     {
-      "item":  "satlaslens",
+      "item":  "laslens",
       "amount": 3
     }
   ],

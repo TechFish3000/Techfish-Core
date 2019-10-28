@@ -1,0 +1,7 @@
+{
+  "type": "material",
+  "name": "HV Laser Diode",
+  "description": "Super-high energy [red]laser[] diode, for industrial and military applications.",
+
+  "color": "bf1400"
+}
