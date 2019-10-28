@@ -8,13 +8,15 @@
     "amount": 1
   },
   "size": 2,
-  "hasPower": true,
+  "hasPower":  true,
+  "outputsPower":  true,
   "hasLiquids": false,
   "hasItems": true,
   "craftTime": 60,
   "updateEffect": "smeltsmoke",
+  "powerProduction": 1,
   "consumes": {
-    "power": "-1f",
+    
     "items": {
       "items": [
         
