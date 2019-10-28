@@ -1,0 +1,25 @@
+{
+	"type": "SingleTypeGenerator",
+	"name": "Cell Discharger",
+	"description": "Drains the power from cell to put in the grid",
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"itemDuration": 360,
+	"powerProduction": 1,
+	"consumes": {
+		"items": {
+			"items": [
+				{ "item": "power_cell", "amount": 1 }
+			],
+			"optional": true
+		}
+	},
+	"requirements": [
+		{ "item": "metaglass", "amount": 80 },
+		{ "item": "silicon", "amount": 60 },
+		{ "item": "empty_power_cell", "amount": 10 }
+	],
+	"category": "power",
+	"research": "cell_charger"
+}
