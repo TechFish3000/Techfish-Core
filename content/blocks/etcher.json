@@ -1,5 +1,5 @@
 {
-  "type": "GenericSmelter",
+  "type": "GenericCrafter",
   "name": "Etcher",
   "description": "Etches wiring into a high-grade [cyan]solar cell[].",
 
