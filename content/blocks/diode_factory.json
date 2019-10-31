@@ -1,0 +1,66 @@
+{
+  "type": "GenericCrafter",
+  "name": "Diode Factory",
+  "description": "do later",
+
+  "outputItem": {
+    "item": "lasdiode",
+    "amount": 5
+  },
+  "size": 2,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "craftTime": 60,
+
+  "consumes": {
+    "power": 0.7,
+    "items": {
+      "items": [
+        {
+          "item": "metaglass",
+          "amount": 6
+            
+        },
+        {
+          "item":  "surge-alloy",
+          "amount": 1
+        }
+
+      ]
+    },
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.05
+
+    }
+
+
+  },
+  "requirements": [
+    {
+      "item": "lead",
+      "amount": 50
+    },
+    {
+      "item": "thorium",
+      "amount": 80
+    },
+    {
+      "item": "silicon",
+      "amount": 60
+    },
+    {
+      "item": "lasdiode",
+      "amount": 3
+    },
+    {
+      "item":  "laslens",
+      "amount": 3
+    }
+  ],
+  "category": "crafting",
+  "research": "kiln",
+  "idleSound": "respawning",
+  "idleSoundVolume": 0.5
+}
