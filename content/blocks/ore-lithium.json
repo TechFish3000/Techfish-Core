@@ -1,4 +1,5 @@
 {
 	"type": "OreBlock",
-	"itemDrop": "lithium"
+	"itemDrop": "lithium",
+  "variants": 2
 }
