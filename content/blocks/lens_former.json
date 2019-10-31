@@ -2,7 +2,7 @@
   "type": "GenericSmelter",
   "name": "Lens Former",
   "description": "Forms lenses out of molten glass.",
-
+  "flameColor": "d9efff",
   "outputItem": {
     "item": "laslens",
     "amount": 1
