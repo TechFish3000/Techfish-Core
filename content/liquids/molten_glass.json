@@ -1,0 +1,8 @@
+{
+	"name": "Molten Glass",
+	"description": "Glass melted down, ready for making lenses.",
+	"temperature": 0.8,
+    "viscosity": 0.8,
+    "effect": "melting",
+    "color": "f9f9f9"
+}

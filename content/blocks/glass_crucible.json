@@ -1,0 +1,33 @@
+{
+	"type": "GenericCrafter",
+	"name": "Glass Crucible",
+	"description": "Melts glass down for use in crafting lenses.",
+	"liquidCapacity": 50,
+	"outputLiquid": {"liquid": "molten_glass", "amount": 10.0},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": true,
+	"craftTime": 10,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.6,
+		"items": {
+      "items": 
+      [
+       {
+        "item": "silver",
+        "amount":  2
+       }
+      ]
+		}
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 50 },
+		{ "item": "copper", "amount": 80 },
+		{ "item": "silicon", "amount": 20 }
+	],
+	"category": "crafting",
+	"research": "kiln",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

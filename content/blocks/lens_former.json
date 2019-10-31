@@ -1,0 +1,57 @@
+{
+  "type": "GenericSmelter",
+  "name": "Lens Former",
+  "description": "Forms lenses out of molten glass.",
+
+  "outputItem": {
+    "item": "laslens",
+    "amount": 1
+  },
+  "size": 3,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "craftTime": 120,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+    "liquid": {
+      "liquid":  "molten_glass",
+      "amount":  0.5
+    },
+    "power": 0.25,
+    "items": {
+      "items": [
+        {
+          "item": "rubber",
+          "amount": 2
+            
+        }
+
+      ]
+    }
+
+
+  },
+  "requirements": [
+    {
+      "item": "lead",
+      "amount": 10
+    },
+    {
+      "item": "titanium",
+      "amount": 20
+    },
+    {
+      "item": "silicon",
+      "amount": 10
+    },
+    {
+      "item": "iron_plate",
+      "amount": 20
+    }
+  ],
+  "category": "crafting",
+  "research": "kiln",
+  "idleSound": "respawning",
+  "idleSoundVolume": 0.5
+}
