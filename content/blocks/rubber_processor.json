@@ -2,7 +2,7 @@
   "type": "GenericSmelter",
   "name": "Rubber Processor",
   "description": "Combines spores and oil to create rubber.",
-
+  "liquidCapacity": 50,
   "outputItem": {
     "item": "rubber",
     "amount": 1
