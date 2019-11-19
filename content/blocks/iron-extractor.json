@@ -1,0 +1,57 @@
+{
+  "type": "GenericSmelter",
+  "name": "Iron Extractor",
+  "description": "Extracts iron ore from scrap and lead as a catalyst. [red]W.I.P, FOR CAMPAIGN USE",
+
+  "outputItem": {
+    "item": "iron_ore",
+    "amount": 2
+  },
+  //"outputItem": {
+  //  "item": "lead",
+  //  "amount": 1
+  //},
+  "size": 2,
+  "hasPower": true,
+  "hasLiquids": false,
+  "hasItems": true,
+  "craftTime": 60,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+    "power": 0.5,
+    "items": {
+      "items": [
+        
+        //{
+         // "item": "lead",
+         // "amount": 1
+        //},
+        {
+          "item": "scrap",
+          "amount": 3
+        }
+      ]
+    }
+
+
+  },
+  "requirements": [
+    {
+      "item": "lead",
+      "amount": 50
+    },
+    {
+      "item": "titanium",
+      "amount": 80
+    },
+    {
+      "item": "silicon",
+      "amount": 60
+    }
+
+  ],
+  "category": "crafting",
+  "research": "separator",
+  "idleSound": "respawning",
+  "idleSoundVolume": 0.5
+}

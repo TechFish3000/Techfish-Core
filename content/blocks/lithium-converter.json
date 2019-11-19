@@ -1,0 +1,53 @@
+{
+  "type": "GenericSmelter",
+  "name": "Lithium Converter",
+  "description": "Burns thorium into lithium, don't ask how. [red]FOR CAMPAIGN USE",
+
+  "outputItem": {
+    "item": "lithium",
+    "amount": 5
+  },
+  "size": 2,
+  "hasPower": true,
+  "hasLiquids": false,
+  "hasItems": true,
+  "craftTime": 300,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+    "power": 0.1,
+    "items": {
+      "items": [
+        
+        {
+          "item": "thorium",
+          "amount": 4
+        },
+        {
+          "item": "pyratite",
+          "amount":  1
+        }
+      ]
+    }
+
+
+  },
+  "requirements": [
+    {
+      "item": "lead",
+      "amount": 50
+    },
+    {
+      "item": "titanium",
+      "amount": 80
+    },
+    {
+      "item": "silicon",
+      "amount": 60
+    }
+
+  ],
+  "category": "crafting",
+  "research": "incinerator",
+  "idleSound": "respawning",
+  "idleSoundVolume": 0.5
+}
