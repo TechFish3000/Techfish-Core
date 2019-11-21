@@ -1,7 +1,7 @@
 {
   "type": "GenericSmelter",
   "name": "Steel Forge",
-  "description": "Combines [black]carbon []and [grey]iron plates []to produce [grey]steel[].",
+  "description": "Combines carbon and iron plates to produce steel.",
 
   "outputItem": {
     "item": "steel_plate",
