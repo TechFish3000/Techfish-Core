@@ -16,7 +16,7 @@
   "consumes": {
     "liquid": {
       "liquid":  "molten_glass",
-      "amount":  0.5
+      "amount":  2.0
     },
     "power": 0.25,
     "items": {

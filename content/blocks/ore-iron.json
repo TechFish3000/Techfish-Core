@@ -1,4 +1,5 @@
 {
 	"type": "OreBlock",
-	"itemDrop": "iron_ore"
+	"itemDrop": "iron_ore",
+   "variants": 2
 }
