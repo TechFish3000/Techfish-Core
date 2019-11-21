@@ -1,7 +1,26 @@
 {
   "type": "material",
   "name": "Iron Plate",
-  "description": "A basic material, refined from Iron Ore.",
-
-  "color": "959595"
+  "description": "A basic material, refined from iron ore. Unlocks many advanced technologies",
+  "research": "core-shard",
+  "color": "959595",
+  "requirements": [
+    {
+      "item": "lead",
+      "amount": 50
+    },
+    {
+      "item": "titanium",
+      "amount": 80
+    },
+    {
+      "item": "silicon",
+      "amount": 60
+    },
+    {
+      "item": "thorium",
+      "amount": 50
+    }
+  ]
+ 
 }

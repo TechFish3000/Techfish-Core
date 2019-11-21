@@ -1,0 +1,8 @@
+{
+	"name": "Lead Paste",
+	"description": "Superheated lead, unusable until purified.",
+	"temperature": 0.9,
+    "viscosity": 0.8,
+    "effect": "melting",
+    "color": "4b4ccc"
+}

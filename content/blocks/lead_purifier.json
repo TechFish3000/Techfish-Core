@@ -1,0 +1,48 @@
+{
+  "type": "GenericSmelter",
+  "name": "Lead Purifier",
+  "description": "Purifies lead paste into solid lead.",
+  "liquidCapacity": 20,
+  "outputItem": {
+    "item": "lead",
+    "amount": 1
+  },
+  "size": 2,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "craftTime": 60,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+    "liquid": {
+      "liquid":  "lead_paste",
+      "amount":  1.0
+    },
+    "power": 0.25
+
+
+
+  },
+  "requirements": [
+    {
+      "item": "lead",
+      "amount": 10
+    },
+    {
+      "item": "titanium",
+      "amount": 20
+    },
+    {
+      "item": "silicon",
+      "amount": 10
+    },
+    {
+      "item": "iron_plate",
+      "amount": 20
+    }
+  ],
+  "category": "crafting",
+  "research": "coal-centrifuge",
+  "idleSound": "respawning",
+  "idleSoundVolume": 0.5
+}

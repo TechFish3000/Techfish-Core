@@ -1,7 +1,7 @@
 {
   "type": "GenericSmelter",
   "name": "Iron Forge",
-  "description": "Forges [grey]iron plates []from [grey]iron ore[].",
+  "description": "Forges [silver]iron plates[] from [crimson]iron ore[]. The start of many new technologies.",
 
   "outputItem": {
     "item": "iron_plate",
@@ -33,6 +33,10 @@
       "amount": 50
     },
     {
+      "item": "copper",
+      "amount": 20
+    },
+    {
       "item": "titanium",
       "amount": 80
     },
@@ -43,7 +47,7 @@
 
   ],
   "category": "crafting",
-  "research": "kiln",
+  "research": "core-shard",
   "idleSound": "respawning",
   "idleSoundVolume": 0.5
 }
