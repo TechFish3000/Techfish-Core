@@ -47,7 +47,7 @@
 
   ],
   "category": "crafting",
-  "research": "core-shard",
+  "research": "kiln",
   "idleSound": "respawning",
   "idleSoundVolume": 0.5
 }
