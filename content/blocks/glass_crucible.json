@@ -3,11 +3,11 @@
 	"name": "Glass Crucible",
 	"description": "Melts glass down for use in crafting lenses.",
 	"liquidCapacity": 50,
-	"outputLiquid": {"liquid": "molten_glass", "amount": 2.0},
+	"outputLiquid": {"liquid": "molten_glass", "amount": 1},
 	"size": 2,
 	"hasPower": true,
 	"hasLiquids": true,
-	"craftTime": 10,
+	"craftTime": 6,
 	"updateEffect": "smeltsmoke",
 	"consumes": {
 		"power": 0.6,
@@ -16,7 +16,7 @@
       [
        {
         "item": "metaglass",
-        "amount":  2
+        "amount":  1
        }
       ]
 		}

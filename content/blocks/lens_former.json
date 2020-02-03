@@ -2,7 +2,7 @@
   "type": "GenericSmelter",
   "name": "Lens Former",
   "description": "Forms lenses out of molten glass.",
-  "liquidCapacity": 50,
+  "liquidCapacity": 60,
 
   "flameColor": "d9efff",
   "outputItem": {
@@ -13,12 +13,12 @@
   "hasPower": true,
   "hasLiquids": true,
   "hasItems": true,
-  "craftTime": 120,
+  "craftTime": 60,
   "updateEffect": "smeltsmoke",
   "consumes": {
     "liquid": {
       "liquid":  "molten_glass",
-      "amount":  2.0
+      "amount":  5
     },
     "power": 0.25,
     "items": {
